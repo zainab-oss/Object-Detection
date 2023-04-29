@@ -1,0 +1,51 @@
+body
+{
+    background-position: center;
+    background-size: cover;
+    font-family: cursive;
+}
+
+.heading 
+{
+    font-size: 40px;
+    width: 100%;
+    margin: 0px;
+}
+
+#status
+{
+    font-size: 18px;
+}
+
+canvas 
+{
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 10px;
+}
+
+.btnc 
+{
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+
+}
+
+.btnc:hover {
+    background-color:yellow;
+    color:maroon;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.bk {
+    float: left;
+    background-color: black;
+    border-color: white;
+    padding: 10px;
+    font-size: 10px;
+    color: whitesmoke;
+}
